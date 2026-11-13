@@ -1,0 +1,12 @@
+{
+  "name": "package-wat",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/run.mjs"
+  },
+  "dependencies": {
+    "wabt": "^1.0.36"
+  }
+}
